@@ -1,0 +1,31 @@
+
+
+    h1 {
+         font-size: 60px;
+     }
+
+     input {
+     width:100px;
+     height:20px;
+     font-size: 40px;
+     }
+
+     .module1 {
+                width: 98%; /* Fai diventare i moduli larghi al 100% */
+                padding: 10px;
+                margin: 10px 0;
+
+            }
+
+      b {
+      font-size:40px;
+      }
+      a {
+        font-size:40px;
+        }
+
+      button {
+                 height:60px;
+                 width:150px;
+                 font-size: 30px;
+             }

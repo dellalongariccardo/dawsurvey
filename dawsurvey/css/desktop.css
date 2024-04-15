@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Main properties */
+
+        body {
+            background-color: #003466;
+            overflow-x: hidden;
+
+        }
+
+
+
+        header {
+
+            left:25%;
+            text-align: center;
+            padding: 10px;
+            display: flex; /* Usa flexbox per posizionare i figli sulla stessa riga */
+            align-items: center; /* Allinea i figli verticalmente al centro */
+            justify-content: center; /* Allinea i figli orizzontalmente al centro */
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-right: 50px;
+            margin-left: 50px;
+            white-space: nowrap;
+        }
+
+
+
+        img {
+            width: 95px; /* Imposta la larghezza dell'immagine */
+            height: 95px; /* Imposta l'altezza dell'immagine */
+        }
+
+        .module {
+
+        position: relative;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%, -5%);
+        width: 600px;
+        padding: 1%;
+        margin: 10px 0;
+        background-color:#7d7d7d;
+        border-radius: 5px; /*bordi arrotondati*/
+        font-family: Arial, sans-serif;
+        text-align: center;
+
+      }
+
+      .module1 {
+        position: relative;
+        left: 50%;
+        top: 5px;
+        transform: translate(-50%, -1%);
+        width: 600px;
+        margin-bottom: 50px;
+        padding: 1%;
+        background-color: #e0ded9;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        }
+
+
+
+      .bottom-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #7b7b7b;
+        color: #7b7b7b;
+        padding: 5px;
+        text-align: center;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+
+
+      }
+
+
+      form {
+        width: 570px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        margin-top:0;
+        padding: 15px;
+        background-color: #e0ded9;
+        border: 0,1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+        font-family: Arial, sans-serif;
+        vertical-align: top;
+        }
+
+        .vertical-center {
+
+          position: relative;
+          padding: 10px;
+          border-radius: 20px;
+          left: 47%;
+          bottom: 15px;
+          right: 0;
+        }
+
+        .fine {
+          position:absolute;
+          display: block;
+          background-color: #7b7b7b;
+          border-top: 1px solid #000; /* Specifica lo stile, colore e spessore del bordo */
+          margin-top: 20px; /* Regola la distanza tra il contenuto della pagina e il bordo */
+          width: 100%; /* Assicurati che il bordo si estenda per tutta la larghezza della pagina */
+          padding: 10px;
+          left:0;
+        }
+
+        #avanti {
+        width: 50px; /* Imposta la larghezza del bottone */
+        height: 30px; /* Imposta l'altezza del bottone */
+        }
+
+           /* Aggiungi uno stile generale per il tooltip */
+        .tooltip {
+          position: relative;
+          display: inline-block;
+        }
+
+        /* Aggiungi uno stile per il testo del tooltip */
+        .tooltip .tooltiptext {
+          visibility: hidden;
+          width: 150px;
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px;
+          position: absolute;
+          z-index: 1;
+          bottom: 125%;
+          left: 50%;
+          margin-left: -75px; /* Posiziona il tooltip al centro sopra il campo di input */
+          opacity: 0;
+          transition: opacity 0.3s;
+        }
+
+        /* Mostra il tooltip quando si passa sopra al checkbox */
+        .tooltip:hover .tooltiptext {
+          visibility: visible;
+          opacity: 1;
+        }
+
+        select{
+        width:200px;
+        }
+
+        .context {
+        text-align: center;}
+
+
+
+
+

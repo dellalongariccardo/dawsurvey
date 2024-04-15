@@ -1,0 +1,375 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+
+    <title> Daw usage survey </title>
+
+    <meta name="robots" content="noindex">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Daw Survey by LIM" />
+    <meta name="keywords" content="DAW, Survey, Music, Lim, Audio, Production, Music" />
+    <meta name="author" content="Giorgio Presti, Federico Avanzini, Riccardo Della Longa" />
+
+    <meta property="og:title" content="DAW Survey" />
+    <meta property="og:description" content="Music Production habits survey" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.lim.di.unimi.it/dawsurvey/" />
+	<meta property="og:image" content="https://www.lim.di.unimi.it/dawsurvey/logo.png" />
+
+
+     <link rel="stylesheet" type="text/css" href="css/desktop.css" media="Screen">
+     <link rel="stylesheet" type="text/css" href="css/mobile2.css" media="handheld, only screen and (max-device-width:770px)">
+
+  </head>
+
+  <body id="body">
+  <div class="container">
+
+    <header>
+    <img src="logo_small.png" >
+
+    <h1 class="badge text-bg-dark" style="text-align:center"> DAW USAGE SURVEY </h1>
+
+    <img src="dipinfo.jpeg" >
+    </header>
+
+    <div class="module1">
+    <p class="badge text-bg-dark" style="text-align: center"> We're interested in learning which DAWs you've used along your way, in different use cases (one or more). For each use case we ask you to list: the DAW, the operating system, the context, the time span, the related tasks and types of production. The "Add use-case" button allows you to create as many new rows as you wish, to describe different use cases involving different DAWs and/or contexts, etc.</p></div>
+
+    <div id="moduloOriginale" class="module" >
+
+        <form id="daw" class="form daw" >
+        <label for="daw">Daw:</label> <br>
+        <select name="daw" id="selectDaw">
+            <option value="" selected="selected" disabled selected >Select one DAW</option>
+            <option  value="ableton live"> Ableton live (Ableton) </option>
+            <option  value="acid pro"> Acid pro (Magix Software GmbH) </option>
+            <option  value="acousticamixcraft"> Acoustica Mixcraft (Acoustica)</option>
+            <option  value="adobeaudition"> Adobe audition (Adobe)</option>
+            <option  value="ardour"> Ardour (Ardour Community)</option>
+            <option  value="audacity"> Audacity (Muse Group) </option>
+            <option  value="audiomulch"> AudioMulch (Sonic Fritter Pty Ltd)</option>
+            <option  value="audiotool"> Audiotool (Audiotool) </option>
+            <option  value="biab"> Biab (Pro max) </option>
+            <option  value="bitwigstudio"> Bitwig studio (Bitwig GmbH) </option>
+            <option  value="btvsolo"> BTV solo (BKE Technology) </option>
+            <option  value="cakewalk"> Cakewalk (Bandlab) </option>
+            <option  value="caustic"> Caustic (Single cell software)</option>
+            <option  value="cubase">  Cubase (Steinberg) </option>
+            <option  value="digitalperformer"> Digital performer (Motu)</option>
+            <option  value="nuendo"> EnergyXT (XT software) </option>
+            <option  value="flstudio"> FL studio (Image-Line Software)</option>
+            <option  value="garageband"> Garageband (Apple) </option>
+            <option  value="goldwave"> Goldwave (GoldWave Digital Audio Editor) </option>
+            <option  value="harrisonmixbus"> Mixbus (Harrison Audio Consoles)</option>
+            <option  value="hindenburgjournalist"> Hindenburg journalist (Hindenburg Systems) </option>
+            <option  value="logic"> Logic pro (Apple)</option>
+            <option  value="lunalive"> Luna (Universal audio) </option>
+            <option  value="magixmusicmaker"> Music maker (Magix Software GmbH) </option>
+            <option  value="mainstage"> Mainstage (Apple)</option>
+            <option  value="mulab"> Mulab (mutools) </option>
+            <option  value="Non daw studio"> Non daw studio (Tux family) </option>
+            <option  value="ntrackstudio"> n-track studio (n-Track software) </option>
+            <option  value="nuendo"> Nuendo (Steinberg) </option>
+            <option  value="ohm studio"> OHM studio (Steam) </option>
+            <option  value="podium"> Podium (Zynewave) </option>
+            <option  value="protools"> Pro tools (Avid techology)</option>
+            <option  value="reaper"> Reaper (Cockos incorporated)</option>
+            <option  value="reason"> Reason (Reason studios)</option>
+            <option  value="renoise"> Renoise (Renoise)</option>
+            <option  value="RX"> RX (iZotope)</option>
+            <option  value="samplitude"> Samplitude (Magix Software GmbH) </option>
+            <option  value="sequoia"> Sequoia (Magix Software GmbH) </option>
+            <option  value="serato studio"> Serato studio (Serato) </option>
+            <option  value="sonic visualizer"> Sonic visualizer (Queen Mary University) </option>
+            <option  value="Soundbooth"> Soundbooth (Adobe) </option>
+            <option  value="soundbridge"> Soundbridge (Soundbridge)</option>
+            <option  value="soundforge"> Soundforge (Magix Software GmbH)</option>
+            <option  value="soundtrap"> Soundtrap (Spotify) </option>
+            <option  value="spectraLayers"> SpectraLayers (Steinberg) </option>
+            <option  value="studioone"> Studio one (PreSonus)</option>
+            <option  value="tenacity"> Tenacity (Tenacity community)</option>
+            <option  value="tracktion"> Tracktion (Tracktion Software Corporation) </option>
+            <option  value="traktor"> Tracktor (Native instruments) </option>
+            <option  value="waveform"> Waveform (Tracktion Software Corporation) </option>
+            <option  value="waveLab"> WaveLab (Steinberg) </option>
+            <option  value="other"> Other (Not listed here) </option>
+        </select>
+      </form>
+
+        <form id="os" class="form os" >
+        <label for="os" >Operating system:</label> <br>
+        <select name="os" id="selectOS">
+            <option value="" selected="selected" disabled selected>Select an OS</option>
+          <option value="mac">Mac</option> <br>
+          <option value="windows">Windows</option> <br>
+          <option value="linux">Linux</option> <br>
+        </select>
+      </form>
+
+
+
+        <form id="livello" class="form livello" >
+        <label for="livello">Use context:</label> <br>
+        <select name="livello" id="selectLivello" required>
+          <option value="" selected="selected" disabled selected>Select an use context</option>
+          <option value="pro">Professional</option>
+          <option value="semipro">Semi-professional</option>
+          <option value="amat">Amateur</option>
+        </select>
+      </form>
+
+        <form id="periodo" class="form periodo" >
+        <label for="periodo">Usage time span:</label> <br>
+        <input type="number" name="start_year" id="inizioDaw" min="1975" max="2023" step="1" value="1975" />
+        <input type="number" name="end_year" id="fineDaw" min="1975" max="2023" step="1" value="2023" />
+      </form>
+
+        <form id="task" class="form task1">
+    <label for="task" class="tooltip" >Task: </label> <br>
+    <div align="left" >
+      <label class="tooltip"><input type="checkbox" name="task" value="draft"> Draft
+        <div class="tooltiptext">Preliminary musical composition </div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="tracking"> Tracking
+        <div class="tooltiptext">Recording and monitoring progress</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="editing"> Editing
+        <div class="tooltiptext">Refinement and manipulation of musical elements</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="sequencing and programming"> Sequencing / Programming
+        <div class="tooltiptext">Arranging musical elements in a specific order; Programming the base sound of digital devices</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="mix"> Mixing
+        <div class="tooltiptext">Balancing and blending audio tracks for a cohesive sound</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="master"> Mastering
+        <div class="tooltiptext">Finalizing and optimizing the overall audio quality</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="postprod"> Post-production
+        <div class="tooltiptext">Enhancing and refining audio after the initial recording</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="live"> Live performance
+        <div class="tooltiptext">Execution of live performances</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="restoration"> Restoration
+        <div class="tooltiptext">Process of removing imperfections from sound recordings</div>
+      </label> <br>
+      <label class="tooltip"><input type="checkbox" name="task" value="teaching"> Teaching
+        <div class="tooltiptext">Imparting musical knowledge and skills to students</div>
+      </label> <br>
+	  <label class="tooltip"><input type="checkbox" name="task" value="science"> Scientific research/measuring
+        <div class="tooltiptext">Making measurements or carrying out scientific experiments</div>
+      </label> <br>
+	  	  <label class="tooltip"><input type="checkbox" name="task" value="other"> Other (Not listed here)
+        <div class="tooltiptext">Other tasks not listed here</div>
+      </label>
+    </div>
+  </form>
+
+
+        <form id="context" class="form context" action="salvaDati.php" method="POST" align="left">
+            <label for="context">Production type:</label> <br>
+            <div align="left">
+            <label><input type="checkbox" name="context"  value="Musica AC"> Acoustic music</label><br>
+            <label><input type="checkbox" name="context"  value="musica el/ac"> Electroacoustic music</label><br>
+            <label><input type="checkbox" name="context"  value="musica el"> Electronic music</label><br>
+            <label><input type="checkbox" name="context"  value="sampling"> Sampling</label><br>
+            <label><input type="checkbox" name="context"  value="sound art"> Sound art</label><br>
+            <label><input type="checkbox" name="context"  value="sound design"> Sound design</label><br>
+            <label><input type="checkbox" name="context"  value="soundfoley"> Sound foley</label><br>
+            <label><input type="checkbox" name="context"  value="soundtrack"> Soundtrack</label><br>
+            <label><input type="checkbox" name="context"  value="speech recording"> Speech recording</label><br>
+            <label><input type="checkbox" name="context"  value="doppiaggio"> Voice dubbing / Voice-over</label><br>
+			<label><input type="checkbox" name="context"  value="other"> Other (Not listed here)</label><br>
+            </div>
+            <br>
+             </form>
+
+
+
+    </div>
+
+    <div class="bottom-bar">
+      <button id="copiaDiv">Add use-case</button>
+      <button id="fine"  >End</button>
+    </div>
+
+    </div>
+
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+  var verticalOffset = 0;
+  var cloneCounter = 1;
+  var datiClonati = [];
+
+  document.getElementById('copiaDiv').addEventListener('click', function () {
+    var clonedModule = document.getElementById('moduloOriginale').cloneNode(true);
+    var uniqueId = 'clonedModule_' + cloneCounter;
+    cloneCounter++;
+    clonedModule.id = uniqueId;
+
+    // Rimuovi i valori dei checkbox durante la clonazione
+    var clonedCheckboxes = clonedModule.querySelectorAll('input[type="checkbox"]');
+    clonedCheckboxes.forEach(function (checkbox) {
+      checkbox.checked = false;
+    });
+
+    var clonedData = {};
+
+    var originalForms = clonedModule.querySelectorAll('.form');
+
+    for (var i = 0; i < originalForms.length; i++) {
+        var originalForm = originalForms[i];
+        var formId = originalForm.id;
+        var uniqueFormId = formId + '_' + uniqueId; // Crea un ID univoco per ogni form clonato
+
+        originalForm.id = uniqueFormId; // Assegna l'ID univoco al form
+
+        var formInputs = originalForm.querySelectorAll('input, select');
+        var formValues = {};
+
+
+
+        // Aggiungi l'ID del modulo e l'ID del form ai dati clonati
+        formValues['module_id'] = uniqueId;
+        formValues['form_id'] = uniqueFormId;
+
+    }
+
+    datiClonati.push(clonedData);
+
+    var clonedModuleTop = parseInt(clonedModule.style.top) + verticalOffset;
+    clonedModule.style.top = clonedModuleTop + 'px';
+    document.body.appendChild(clonedModule);
+
+    window.scrollTo(0, document.body.scrollHeight);
+
+    });
+
+
+    });
+
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var Moduli = new Array();
+
+    document.getElementById('fine').addEventListener('click', function () {
+      var dati = {id:"", os:"", daw:"", inizioP:"", fineP:"", task:[], context:[]}
+
+
+
+       // Funzione di validazione per verificare che tutti i campi siano compilati
+        function validateForm(form) {
+            var formInputs = form.querySelectorAll('input, select','input[type="checkbox"]');
+            var formValid = true;
+
+            for (var i = 0; i < formInputs.length; i++) {
+                var input = formInputs[i];
+
+                if (input.required && !input.value.trim()) {
+                    formValid = false;
+                    alert("Please fill in all fields before proceeding.");
+                }
+            }
+            return formValid;
+        }
+
+      var body = document.getElementById("body");
+      var moduliClone = body.querySelectorAll('.module');
+      for (let j=0; j < moduliClone.length;j++){
+        dati["id"]=j
+        var moduliClone_form = moduliClone[j].querySelectorAll("form");
+        for (var i = 0; i < moduliClone_form.length-2; i++) {
+          form = moduliClone_form[i];
+
+          // Verifica che tutti i campi del modulo siano compilati
+          if (!validateForm(form)) {
+                    return; // Interrompe l'invio se la validazione fallisce
+                }
+
+          let nodo = form.querySelectorAll('input, select');
+          if (nodo[0].tagName == 'SELECT'){
+            dati[nodo[0].name] = nodo[0].value;
+          }
+          else{
+          dati["inizioP"] = nodo[0].value;
+          dati["fineP"] = nodo[1].value;
+          }
+        }
+
+        task = moduliClone_form[4].querySelectorAll('input[name="task"]:checked');
+        task_selected = new Array();
+        for (var i = 0; i < task.length; i++){
+          task_selected.push(task[i].value);
+        }
+
+        contesto = moduliClone_form[5].querySelectorAll('input[name="context"]:checked');
+        contesto_selected = new Array();
+        for (var i = 0; i < contesto.length; i++){
+          contesto_selected.push(contesto[i].value);
+        }
+
+        dati["task"] = task_selected;
+        dati["context"] = contesto_selected;
+
+        Moduli.push(dati)
+        dati = {id:"", os:"", daw:"", inizioP:"", fineP:"", task:[], context:[]}
+      }
+
+      console.log(Moduli);
+
+        const dati1JSON = localStorage.getItem('dati');
+        console.log(dati1JSON)
+        const dati1 = JSON.parse(dati1JSON);
+
+
+        const oggettoUnificato = {dati1 , Moduli};
+
+
+
+    var conferma = window.confirm("Are you sure you want to proceed?");
+    if (conferma) {
+        fetch('phpdati.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(oggettoUnificato),
+        })
+            .then(response => response.text())
+            .then(data => {
+                console.log(data);
+                // Reindirizza alla pagina desiderata
+                window.location.href = 'pag3.html';
+            })
+            .catch((error) => {
+                console.error('Errore durante la richiesta al server:', error);
+            });
+        } else {
+            // L'utente ha cliccato su "Annulla" nella finestra di conferma
+            console.log("Operazione annullata.");
+    }
+
+
+    });
+
+  });
+</script>
+
+
+
+
+  </body>
+
+
+
+</html>
+

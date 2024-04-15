@@ -1,0 +1,108 @@
+ h1 {
+            font-size: 60px;
+            }
+
+             .form {
+                width: 96%; /* Fai diventare i moduli larghi al 100% */
+                padding: 10px;
+                margin-left: 10px;
+
+            }
+
+            .module {
+            width: 94%; /* Imposta la larghezza al 100% della larghezza della finestra */
+            margin-left: 5px;
+            padding:10px;
+            }
+            .module1 {
+            width: 94%; /* Imposta la larghezza al 100% della larghezza della finestra */
+            margin-left: 5px;
+            padding:10px;
+            margin-bottom:150px;
+            font-size:60px;
+            }
+
+
+
+
+           #selectDaw, #selectOS, #selectLivello {
+           font-size: 50px;
+           width:500px;
+           height:60px;
+           }
+
+
+            label, input{
+            font-size: 50px;
+            max-width:400px;
+            white-space: nowrap;
+            }
+
+            label {
+             font-size:65px;
+             }
+
+            .tooltiptext {
+            white-space:normal;
+            }
+
+
+
+
+
+             #fine {
+                 height:60px;
+                 width:150px;
+                 font-size: 50px;
+             }
+
+             #copiaDiv {
+                 height:60px;
+                 width:350px;
+                 font-size: 45px;
+                 white-space: nowrap;
+             }
+
+             input[type="checkbox"] {
+                width:45px;
+                height:40px;
+             }
+
+           select {
+              width: 250px;
+            }
+
+            option {
+              width: 250px;
+              font-size:12px;
+            }
+
+          /* Aggiungi uno stile generale per il tooltip */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Aggiungi uno stile per il testo del tooltip */
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 400px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -75px; /* Posiziona il tooltip al centro sopra il campo di input */
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    /* Mostra il tooltip quando si passa sopra al checkbox */
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
